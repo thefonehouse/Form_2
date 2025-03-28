@@ -174,13 +174,12 @@ export default function OrderForm() {
         <Card className="shadow-2xl border-0 overflow-hidden backdrop-blur-sm bg-white/90">
           <CardHeader className="bg-gray-50 rounded-t-lg p-6 sm:p-8 space-y-4">
             <div className="flex justify-center">
-              <Image
+              <img
                 src="/logo.svg"
                 alt="Company Logo"
                 width={400}
                 height={400}
                 className="rounded-full"
-                priority
               />
             </div>
             <div className=" space-y-2">
