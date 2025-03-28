@@ -174,20 +174,21 @@ export default function OrderForm() {
         <Card className="shadow-2xl border-0 overflow-hidden backdrop-blur-sm bg-white/90">
           <CardHeader className="bg-gray-50 rounded-t-lg p-6 sm:p-8 space-y-4">
             <div className="flex justify-center">
-              <img
+              <Image
                 src="/logo.svg"
                 alt="Company Logo"
                 width={400}
                 height={400}
                 className="rounded-full"
+                priority
               />
             </div>
             <div className=" space-y-2">
               <CardTitle className="text-2xl font-bold text-gray-900">
-                Submit Your Banking Details
+                Submit Your Details
               </CardTitle>
               <p className="text-sm sm:text-base text-gray-600">
-                Please submit your Banking details and our team will contact you shortly. For further inquiry please visit <Link href="https://thefonehouse.com/" className="text-teal-700 underline">www.thefonehouse.com</Link>.
+                Please submit your details and our team will contact you shortly. For further inquiry please visit <Link href="https://thefonehouse.com/" className="text-teal-700 underline">www.thefonehouse.com</Link>.
               </p>
             </div>
           </CardHeader>
