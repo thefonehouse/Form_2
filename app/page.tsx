@@ -284,7 +284,7 @@ export default function OrderForm() {
                         render={({ field }) => (
                           <FormItem>
                             <FormLabel className="flex items-center gap-1 text-sm font-medium">
-                              Name on Bank Card
+                              Name with Bank
                               <TooltipProvider delayDuration={100}>
                                 <Tooltip>
                                   <TooltipTrigger asChild>
