@@ -175,7 +175,7 @@ export default function OrderForm() {
           <CardHeader className="bg-gray-50 rounded-t-lg p-6 sm:p-8 space-y-4">
             <div className="flex justify-center">
               <Image
-                src="https://thefonehouse.com/images/logo.svg"
+                src="/logo.svg"
                 alt="Company Logo"
                 width={400}
                 height={400}
